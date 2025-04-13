@@ -9,7 +9,6 @@
         text-align: center;
         font-size: 20px;
         margin-top: 50px;
-        border-radius: 10px;
       }
       .gallery {
         display: flex;
@@ -17,20 +16,23 @@
       }
       .item {
         wight: 200px;
+        flex-shrink: 0;
       }
       .item img {
         width: 100%;
+        height: auto;
         border-radius: 10px;
       }
       .description {
+        height: 50px;
         margin-top: 10px;
       }
     </style>
   </head>
   <body>
     <p>歡迎來到我的網站！以下是我的自我介紹</p>
-    <img src="myself.jpg" width="200px;">
-    <h1>林志玲 Lucy Lin</h1>
+    <img src="myself.jpg" width="400px">
+    <h1 style="color:#00f;">林志玲 Lucy Lin</h1>
     <p>
       個性：樂觀開朗、積極主動
       <br/>
